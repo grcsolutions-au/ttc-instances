@@ -1,0 +1,16 @@
+cabal-version: 2.4
+name: ttc-http-api-data-instances
+version: 0.1.0.0
+build-type: Simple
+
+library
+  exposed-modules:
+      Web.HttpApiData.DerivingVia.TTC
+  hs-source-dirs:
+      src
+  build-depends:
+      base
+    , http-api-data
+    , text
+    , ttc
+  default-language: Haskell2010

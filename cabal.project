@@ -1,0 +1,5 @@
+packages:
+  packages/ttc-autodocodec-instances
+  packages/ttc-miso-instances
+  packages/ttc-http-api-data-instances
+  packages/ttc-openapi3-instances
